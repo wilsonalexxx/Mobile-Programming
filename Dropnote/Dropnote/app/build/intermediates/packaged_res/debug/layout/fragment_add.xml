@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AddFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/lightCream"
+        android:textSize="30sp"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:text="Add Activity"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/lightYellow"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/container_design"
+            android:padding="20dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="Activity Name:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"/>
+
+                <EditText
+                    android:id="@+id/activity_name"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:background="@drawable/edittext_design"
+                    android:hint="Activity Name"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColorHint="@color/brightBrown"
+                    android:textColor="@color/lightBrown"
+                    android:inputType="text"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="Date:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"/>
+
+                <Button
+                    android:id="@+id/activity_date"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:background="@drawable/edittext_design"
+                    android:textAlignment="textStart"
+                    android:text="dd/mm/yyyy"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColorHint="@color/brightBrown"
+                    android:textColor="@color/lightBrown"
+                    android:inputType="date"
+                    tools:ignore="RtlCompat,RtlHardcoded" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="Time:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"/>
+
+                <Button
+                    android:id="@+id/activity_time"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:textAlignment="textStart"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:background="@drawable/edittext_design"
+                    android:text="hh:mm"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColorHint="@color/brightBrown"
+                    android:textColor="@color/lightBrown"
+                    android:inputType="time"
+                    tools:ignore="RtlCompat" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="Location:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"/>
+
+                <EditText
+                    android:id="@+id/activity_location"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:background="@drawable/edittext_design"
+                    android:hint="Location"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColorHint="@color/brightBrown"
+                    android:textColor="@color/lightBrown"
+                    android:inputType="text"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Description:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown" />
+
+                <EditText
+                    android:id="@+id/activity_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:gravity="left"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/edittext_design"
+                    android:hint="Description"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColorHint="@color/brightBrown"
+                    android:textColor="@color/lightBrown"
+                    android:inputType="text|textMultiLine"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="15dp">
+
+                <RadioButton
+                    android:id="@+id/event_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"
+                    android:buttonTint="@color/brown"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/project_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:text="Project"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"
+                    android:buttonTint="@color/brown"/>
+
+                <RadioButton
+                    android:id="@+id/assignment_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assignment"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightBrown"
+                    android:buttonTint="@color/brown"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/button_design"
+                android:text="Add Activity"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
